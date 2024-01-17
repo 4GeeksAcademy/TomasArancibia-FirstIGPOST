@@ -1,0 +1,77 @@
+/**/
+div {
+    border: 1px;
+    min-height: 10px;
+}
+
+div *{
+    border: 1px dashed white;
+    min-height: 10px;
+}
+
+div * *{
+    border: 1px dashed white;
+    min-height: 10px;
+}
+
+body {
+    background: black;
+    padding: auto;
+    display: block;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.post {
+    margin: auto;
+    max-width: 400px;
+    max-height: 800px;
+    background: white;
+    margin-top: 100px;
+    padding: 2px;
+}
+
+.post-head {
+    max-height: 25px;
+    padding: 3px;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(https://fonts.google.com/specimen/Roboto);
+}
+
+p {
+    font-family: "Roboto";
+    font-size: x-small;
+    margin-top: none;
+}
+.name {
+    margin-top: 0px;
+    padding-left: 8px;
+}
+
+.post-img {
+    max-width: 400px;
+    max-height: 300px;
+    margin: auto;
+}
+
+.post-img img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+
+}
+
+.post-body {
+    font-family: "Roboto";
+    margin: 5px;
+    margin-top: 20px;
+}
